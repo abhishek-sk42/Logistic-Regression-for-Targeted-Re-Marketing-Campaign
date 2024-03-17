@@ -10,23 +10,23 @@ Train a Logistic Regression model to predict response to the first wave of the m
 
 ## Notes on the data
 50,000 rows consisting of customer demographics and purchase history data. Column definitions are as follows: 
-cust_id: Unique ID number for each customer
-state: US state where the customer is located
-zip: 5 digit ZIP code
-speeddown: Average download internet speed in the area
-speedup: Average upload internet speed in the area
-last: Time (in months) since the customer’s last order for fountain machine supplies
-numords: Number of orders for fountain machine supplies in the last year
-dollars: Total money spent (in hundreds of dollars) on fountain machine supplies in the last 4 years
-sincepurch: Time (in months) since most recent purchase of a fountain machine
-refurb: Is 1 if the customer has ever purchased a refurbished fountain machine (0 otherwise)
-oldmodel: Is 1 if the customer’s most recent fountain machine purchase is a
-model no longer sold by the manufacturer (0 if it’s a model that is currently sold)
-eightvalve: Is 1 if the customer’s most recent fountain machine purchase has 8 different valves/nozzles (0 if the machine has 6 valves/nozzles)
-type: What kind of restaurant is this: fastcasual, quickservice, or other
-income: Median household income (100k dollars) in ZIP code
-medhvalue: Median value (100k dollars) for all owner-occupied housing units in ZIP code
-buy1: Response to wave 1 offer (1 = accepted the offer, 0 = did not accept)
-training: 70/30 split (1 = training sample, 0 = validation sample)
+<br>cust_id: Unique ID number for each customer
+<br>state: US state where the customer is located
+<br>zip: 5 digit ZIP code
+<br>speeddown: Average download internet speed in the area
+<br>speedup: Average upload internet speed in the area
+<br>last: Time (in months) since the customer’s last order for fountain machine supplies
+<br>numords: Number of orders for fountain machine supplies in the last year
+<br>dollars: Total money spent (in hundreds of dollars) on fountain machine supplies in the last 4 years
+<br>sincepurch: Time (in months) since most recent purchase of a fountain machine
+<br>refurb: Is 1 if the customer has ever purchased a refurbished fountain machine (0 otherwise)
+<br>oldmodel: Is 1 if the customer’s most recent fountain machine purchase is a
+<br>model: no longer sold by the manufacturer (0 if it’s a model that is currently sold)
+<br>eightvalve: Is 1 if the customer’s most recent fountain machine purchase has 8 different valves/nozzles (0 if the machine has 6 valves/nozzles)
+<br>type: What kind of restaurant is this: fastcasual, quickservice, or other
+<br>income: Median household income (100k dollars) in ZIP code
+<br>medhvalue: Median value (100k dollars) for all owner-occupied housing units in ZIP code
+<br>buy1: Response to wave 1 offer (1 = accepted the offer, 0 = did not accept)
+<br>training: 70/30 split (1 = training sample, 0 = validation sample)
 
 
